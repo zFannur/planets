@@ -11,5 +11,5 @@ class AppConfig {
     coefficient = screenWeight / maxWeight;
   }
 
-  set max(double value) => maxWeight = value;
+  set screenMax(double value) => maxWeight = value;
 }
